@@ -12,6 +12,7 @@
 <main>
   <div id=  "maintitle">HANGMAN</div>
   <div id ="theme">DISNEY VILLAINS </div>
+  <div id ="winmessage"></div>
     
   <div id = "letterbank">Letter Bank
     <p class="alphabet">A B C D <br>E F G H I <br>J K L M N O <br>P Q R S T U <br>V W X Y Z</p>
@@ -24,9 +25,11 @@
     <div class = "hidden" id="leftarm"></div>
     <div class = "hidden" id="rightarm"></div>
   </div>
-  <div id = "puzzle">word area</div>
+  <div id = "puzzle"></div>
+    <div id ="blanks"></div>
+  <p id = "input-prompt">Type your guesses here!</p>
   <input type="text">
-  <button>submit guess</button>
+  <button id="submitguess">submit guess</button>
 </main>
 <footer></footer>
 </body>

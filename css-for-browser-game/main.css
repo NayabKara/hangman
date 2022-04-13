@@ -45,6 +45,7 @@ main {
 }
 
 
+
 .alphabet {
   grid-column-start: 1;
   grid-column-end: 3;
@@ -73,6 +74,33 @@ main {
   padding-block: 70px;
   text-align: center;
 }
+
+#blanks {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row: 5/8;
+  padding-block: 70px;
+  text-align: center;
+}
+
+
+input {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 3/4;
+  width: 70px;
+  height: 70px;
+}
+
+#input-prompt{
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row: 3/4;
+  position: relative;
+  top: 65px;
+}
+
+
 
 .hidden {
   visibility: hidden;
